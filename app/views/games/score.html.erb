@@ -1,0 +1,8 @@
+
+<% if @result_one && @result_two %>
+  <%= 'Congrations! input is a valid English Word' %>
+<% elsif @result_one == false && @result_two == true %>
+  <%= 'Sorry, input does not seem to be a valid english word' %>
+<% else %>
+  <%= 'Sorry, input can not be built out of the letters' %>
+<% end %>
